@@ -636,28 +636,6 @@ nav ul li a {
 }
 
 @media (max-width: 720px){
-  .header-content h1 {
-    font-size: 28px;
-  }
-
-  .header-content p {
-    font-size: 12px;
-    letter-spacing: 3px;
-  }
+  
 }
 
-@media (max-width: 360px){
-  .header-content h1 {
-    font-size: 24px;
-  }
-
-  .header-content p {
-    font-size: 10px;
-    letter-spacing: 2px;
-  }
-
-  #portfolio .portfolio-list .nav li {
-    float: none;
-    margin: 8px;
-}
-}

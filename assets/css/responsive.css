@@ -115,6 +115,14 @@
     padding-top: 15px;
     display: block;
   }
+  .header-content h1 {
+    font-size: 28px;
+  }
+
+  .header-content p {
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
   /* About */
   .head-info .header-content h1 {
     font-size: 32px;
@@ -297,6 +305,22 @@
   }
 }
 
+@media (max-width: 360px){
+  .header-content h1 {
+    font-size: 24px;
+  }
+
+  .header-content p {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  #portfolio .portfolio-list .nav li {
+    float: none;
+    margin: 8px;
+}
+}
+
 /** Width between 320px to 0
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
@@ -346,10 +370,6 @@
     margin-bottom: 0;
   }
   /* portfolio */
-  #portfolio .portfolio-list .nav li {
-    float: none;
-    margin: 20px;
-  }
   /* journal */
   #journal .journal-block .journal-info {
     margin-bottom: 30px;

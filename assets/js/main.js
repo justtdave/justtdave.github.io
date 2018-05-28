@@ -112,6 +112,10 @@ $(document).ready(function() {
     layoutMode: 'fitRows'
   });
 
+  portfolioIsotope.imagesLoaded().progress( function() {
+    portfolioIsotope.isotope('layout');
+  });
+
   $('#portfolio-flters li').on( 'click', function() {
     $("#portfolio-flters li").removeClass('filter-active');
     $(this).addClass('filter-active');
